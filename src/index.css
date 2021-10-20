@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+/*
+FONT - Black Han Sans
+*/
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.container-cronometro{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(125deg,#98a,#65a);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titulo-cronometro{
+  font-size: 80px;
+  font-family: "Black Han Sans";
+  color: rgb(255, 255, 255);
+  margin: -18px;
+  text-shadow: 2px 2px 2rem #000;
+  background-color: #000;
+  border-radius: .4rem 4rem;
+  padding: 1rem 1rem;
+}
+.card-cronometro-wrapper{
+  padding: 10rem 10rem;
+  position: relative;
+  background-color: rgba(60, 30, 120, 0.879);
+  border-radius: 5px 3rem;
+  text-align: center;
+}
+.card-cronometro-wrapper>.img-wrapper{
+  position: absolute;
+  top:0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+.card-cronometro-wrapper>.img-wrapper>img{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  object-fit:cover;
+  opacity: .2;
+}
+#cronometro-value{
+  font-size: 80px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:aliceblue;
+  text-shadow: 2px 2px 1rem #000;
+  font-style: italic;
+  
+}
+
+.card-cronometro> i {
+  color: #98a;
+  position: relative;
+  top: 2rem;
+  margin: .4rem ;
+  font-size: 30px;
+  cursor: pointer;
+}
+
