@@ -65,5 +65,11 @@ FONT - Black Han Sans
   margin: .4rem ;
   font-size: 30px;
   cursor: pointer;
+  transition: all .4s;
+}
+.card-cronometro>i:hover{
+  color: rgba(225, 222, 234, 0.605);
+  transform: scale(1.4);
+  text-shadow: 1px 1px 1rem #000;
 }
 
