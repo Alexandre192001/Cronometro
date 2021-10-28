@@ -1,4 +1,4 @@
-"use strict"
+
 
 var hh=0;
 var mm=0;
