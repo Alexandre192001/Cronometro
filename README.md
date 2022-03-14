@@ -1,5 +1,5 @@
 <h1>Cronômetro</h1>
-
+<hr>
 <h2>Linguagens Utilizadas:</h2>
 
 <div style="display: inline_block">
@@ -22,4 +22,5 @@
 <li>Pause - Pausa  o cronômetro no seu estado atual da contagem;</li>
 <li>Reset - Restaura ele para o valor zerado (00:00:00).</li>
 </ul>
+<hr>
 Link : https://cronometro-alexandre.netlify.app/
