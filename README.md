@@ -14,7 +14,7 @@
 
 <hr>
 <h2>⚜️Descriçao⚜️</h2>
-<p>Cronômetro desenvolvido para o uso diário de um usuário, em que nele tem 3 botões que fazem funções distintas</p>
+<p>Cronômetro desenvolvido para o uso diário de um usuário, em que nele tem 3 botões que fazem funções distintas.</p>
 <hr>
 <h2>⚜️Funcionalidades:⚜️</h2>
 <ul>
