@@ -10,9 +10,11 @@
   height: 100vh;
   background-image: linear-gradient(125deg,rgb(9, 14, 55),rgb(47, 30, 116));
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow:hidden;
 }
 .titulo-cronometro{
   font-size: 80px;
@@ -23,11 +25,12 @@
   border-radius: .4rem 1rem;
   box-shadow: .4rem .1rem 1rem #000;
   padding: 1rem 1rem;
-  width: 50%;
+  width: 70%;
   font-size: 20px;
 }
 .card-cronometro-wrapper{
   width: 80%;
+  position: absolute;
   height: 20rem;
   position: relative;
   background-color: rgba(94, 132, 155, 0.879);
@@ -89,4 +92,16 @@
 }
 .btn_voltar_port:hover{
   transform: scale(1.1);
+}
+
+@media (max-width:337px){
+  .card-cronometro-wrapper{
+    width: 50%;
+  }
+  .card-cronometro{
+    width: 100%;
+  }
+  #cronometro-value{
+    font-size:20px;
+  }
 }
