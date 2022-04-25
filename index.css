@@ -29,7 +29,7 @@
   font-size: 20px;
 }
 .card-cronometro-wrapper{
-  width: 80%;
+  width: 50%;
   position: absolute;
   height: 20rem;
   position: relative;
@@ -96,7 +96,7 @@
 
 @media (max-width:337px){
   .card-cronometro-wrapper{
-    width: 50%;
+    width: 80%;
   }
   .card-cronometro{
     width: 100%;
