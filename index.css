@@ -18,7 +18,7 @@
 }
 .titulo-cronometro{
   font-size: 80px;
-  font-family: "Black Han Sans";
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 2rem #000;
   background-color: rgb(44, 24, 85);
@@ -71,9 +71,8 @@
   transition: all .4s;
 }
 .card-cronometro>i:hover{
-  color: rgba(225, 222, 234, 0.605);
+  color: rgba(31, 27, 43, 0.605);
   transform: scale(1.4);
-  text-shadow: 1px 1px 1rem #000;
 }
 
 .btn_voltar_port{
