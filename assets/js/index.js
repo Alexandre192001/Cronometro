@@ -4,16 +4,16 @@ var ss = 0;
 
 var cron;
 
-document.getElementById("play").addEventListener("click", () => {
+const play = document.getElementById("play").addEventListener("click", () => {
   cronometroTime()
   cron = setInterval(cronometroTime,10)
 })
 
-document.getElementById("pause").addEventListener("click", () => {
+const pause = document.getElementById("pause").addEventListener("click", () => {
   clearInterval(cron);
 })
 
-document.getElementById("reset").addEventListener("click", () => {
+const reset = document.getElementById("reset").addEventListener("click", () => {
   clearInterval(cron);
   hh = 0;
   mm = 0;

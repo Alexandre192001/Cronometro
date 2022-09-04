@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+$fontQuicksand: "Quicksand";
+
+*{
+  margin: 0%;
+  padding:0%;
+  box-sizing: border-box;
+}
+
+.container-cronometro{
+  font-family: $fontQuicksand;
+  height: 100vh;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  background-color: rgb(39, 39, 51);
+  overflow: hidden;
+
+  .card-cronometro-wrapper{
+    width:45rem;
+    height: 20rem;
+    text-align:center;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 56, 83);
+    flex-direction: column;
+    color: #fff;
+    border-radius: .4rem;
+    box-shadow: inset 1px 1px 1rem #fff;
+    
+    .card-cronometro{
+      margin: 4rem;
+
+      i{
+        cursor: pointer;
+        margin:1rem;
+        background-color: #05a;
+        padding: .7rem 2rem;
+        border-radius: .4rem;
+        transition: all .2s ease-in-out;
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+    }
+    
+  }
+
+  a{
+    text-decoration: none;
+    padding: 1rem;
+    background-color: #05a;
+    color: #fff;
+    border-radius: .2rem;
+    margin:1rem;
+  }
+}
+
+
+@media(max-width:732px){
+  .container-cronometro{
+    .card-cronometro-wrapper{
+      width: 90%;
+    }
+  }
+}

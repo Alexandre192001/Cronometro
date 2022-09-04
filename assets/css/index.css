@@ -1,106 +1,62 @@
-
-*{
-  padding: 0%;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+* {
   margin: 0%;
+  padding: 0%;
   box-sizing: border-box;
 }
 
-.container-cronometro{
-  width: 100%;
+.container-cronometro {
+  font-family: "Quicksand";
   height: 100vh;
-  background-image: linear-gradient(125deg,rgb(9, 14, 55),rgb(47, 30, 116));
+  width: 100%;
   display: flex;
-  position: relative;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  overflow:hidden;
+  justify-content: center;
+  background-color: #272733;
+  overflow: hidden;
 }
-.titulo-cronometro{
-  font-size: 80px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 2rem #000;
-  background-color: rgb(44, 24, 85);
-  border-radius: .4rem 1rem;
-  box-shadow: .4rem .1rem 1rem #000;
-  padding: 1rem 1rem;
-  width: 70%;
-  font-size: 20px;
-}
-.card-cronometro-wrapper{
-  width: 50%;
-  position: absolute;
+.container-cronometro .card-cronometro-wrapper {
+  width: 45rem;
   height: 20rem;
-  position: relative;
-  background-color: rgba(94, 132, 155, 0.879);
-  border-radius: .6rem;
   text-align: center;
-}
-.card-cronometro-wrapper>.img-wrapper{
-  position: absolute;
-  top:0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-}
-.card-cronometro-wrapper>.img-wrapper>img{
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  object-fit:cover;
-  opacity: .2;
-}
-#cronometro-value{
-  font-size: 50px;
-  margin: 3rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color:aliceblue;
-  text-shadow: 2px 2px 1rem #000;
-  font-style: italic;
-  
-}
-
-.card-cronometro> i {
-  color: rgb(159, 174, 177);
-  position: relative;
-  top: -1rem;
-  margin: .4rem ;
-  font-size: 30px;
-  cursor: pointer;
-  transition: all .4s;
-}
-.card-cronometro>i:hover{
-  color: rgba(31, 27, 43, 0.605);
-  transform: scale(1.4);
-}
-
-.btn_voltar_port{
-  display: block;
-  border: none;
-  background-color: rgb(37, 39, 53);
-  width: 4rem;
-  text-align: center;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding: .4rem .4rem;
-  border-radius: .4rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #373853;
+  flex-direction: column;
   color: #fff;
-  transition: all .4s;
-  margin: 1rem 0;
-  text-decoration: none;
+  border-radius: 0.4rem;
+  box-shadow: inset 1px 1px 1rem #fff;
 }
-.btn_voltar_port:hover{
+.container-cronometro .card-cronometro-wrapper .card-cronometro {
+  margin: 4rem;
+}
+.container-cronometro .card-cronometro-wrapper .card-cronometro i {
+  cursor: pointer;
+  margin: 1rem;
+  background-color: #05a;
+  padding: 0.7rem 2rem;
+  border-radius: 0.4rem;
+  transition: all 0.2s ease-in-out;
+}
+.container-cronometro .card-cronometro-wrapper .card-cronometro i:hover {
   transform: scale(1.1);
 }
+.container-cronometro a {
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #05a;
+  color: #fff;
+  border-radius: 0.2rem;
+  margin: 1rem;
+}
 
-@media (max-width:337px){
-  .card-cronometro-wrapper{
-    width: 80%;
-  }
-  .card-cronometro{
-    width: 100%;
-  }
-  #cronometro-value{
-    font-size:20px;
+@media (max-width: 732px) {
+  .container-cronometro .card-cronometro-wrapper {
+    width: 90%;
   }
 }
+
+/*# sourceMappingURL=index.css.map */
